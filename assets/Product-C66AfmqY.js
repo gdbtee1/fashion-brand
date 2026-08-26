@@ -1,0 +1,1 @@
+import{n as e}from"./index-DCMe7L9_.js";var t=e();function n(){return(0,t.jsx)(`section`,{style:{minHeight:`100vh`,display:`flex`,alignItems:`center`,justifyContent:`center`},children:`HOME`})}export{n as default};
