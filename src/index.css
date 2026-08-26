@@ -1884,3 +1884,29 @@ body.menu-open {
     font-size: 13px;
   }
 }
+/* =========================================================
+   MOBILE MENU FINAL TYPE FIT
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .mobile-menu-links a strong {
+    font-size: clamp(44px, 11.8vw, 72px);
+
+    line-height: 0.94;
+    letter-spacing: -0.06em;
+
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-menu-links a strong {
+    font-size: 11.5vw;
+  }
+}
+
+@media (max-width: 390px) {
+  .mobile-menu-links a strong {
+    font-size: 10.8vw;
+  }
+}
